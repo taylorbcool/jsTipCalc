@@ -1,6 +1,6 @@
 function calculateTip() {
-    var billAmt = document.getElementById(billAmt).value;
-    var serviceQual = document.getElementById(serviceQual).value;
+    var billAmt = document.getElementById("billAmt").value;
+    var serviceQual = document.getElementById("serviceQual").value;
     //validate input
     if (billAmt === "" || serviceQual == 0) {
         alert("Please enter values");
